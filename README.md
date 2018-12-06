@@ -1,6 +1,6 @@
 Scala
-- _your name_
-- _your email (uoit.net)_
+- shane rego
+- shane.rego@uoit.net
 
 ## About the language
 

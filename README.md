@@ -346,17 +346,6 @@ Scala
 >>> _One of Scala’s perks is that its functional programming functionality with an OOP style._
 
 
->> **The ability to perform meta-programming such as macros**
->>> _Pattern matching in Scala is no joke. Scala uses the match statement for this purpose, which is a powerful version of Java's switch statement. It allows you to match on any type of data, lists, and even your own types. If you haven't already tried it, I suggest you play around with it a little._
-
->> **Symbol resolution and its support for closure**
->>> _Simple symbol resolutions are by far the most common. In this case, two symbols with similar characteristics are detected, with one symbol taking precedence over the other. This symbol resolution is carried out silently by the link-editor. For example, with symbols of the same binding, a symbol reference from one file is bound to a defined, or tentative symbol definition, from another file. Or, a tentative symbol definition from one file is bound to a defined symbol definition from another file. This resolution can occur between two relocatable objects, or between a relocatable object and the first definition found in a shared object dependency._
-
->>> _Symbols that undergo resolution can have either a global or weak binding. Within relocatable objects, weak bindings have lower precedence than global binding. Relocatable object symbols with different bindings are resolved according to a slight alteration of the basic rules. Weak symbols can usually be defined through the compiler, either individually or as aliases to global symbols._
-
-
-
-
 >> **Scoping rules supported by the language: lexical vs dynamic scoping**
 >>> _The scoping rules supported by the language is lexical._
 

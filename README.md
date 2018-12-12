@@ -18,13 +18,13 @@ Scala
 
 ## About the syntax
 
-> _Scala could be executed in two modes: one is interactice mode and the another is script mode._
+
  >> - ### Interactive mode ### - Here the user codes and runs directly in the command prompt
  >>> To open scala in the command prompt use the following  command.
  >>>  ```
  >>>  \>scala
  
- >>> The following should be displayed if Scala is installed in your system.
+ >>> The following should be displayed
  >>>  ```
  >>>  Welcome to Scala version 2.9.0.1
  >>>  Type in expressions to have them evaluated.
@@ -34,41 +34,42 @@ Scala
  >>>  ```
  >>>  scala> println("Hello, Scala!");
  
- >>>  The following result will be produced
+ >>>  The following will be outputed
  >>>  ```
  >>>  Hello, Scala!
  
  >> - ### Script mode ### -Here the user codes in a file then compiles and executes the file from the command prompt
- >>> **HelloWorld**
+ >>> **HiWorld**
  >>> ```scala
- >>>  object HelloWorld {
+ >>>  object HiWorld {
  >>>  /* This is my first java program.  
- >>>  * This will print 'Hello World' as the output
+ >>>  * This will print 'Hi World' as the output
  >>>  */
  >>>  def main(args: Array[String]) {
- >>>      println("Hello, world!") // prints Hello World
+ >>>      println("Hi, world!") // prints Hi World
  >>>  }
  >>> }
  
- >>>  The file is saved as **Helloworld.scala**
+ >>>  The file is saved as **Hiworld.scala**
+ 
  >>>  Then open commmand promtpt and go to the directory where you saved the program
- Then '**scalac**' command is typed in fromt of the file **Helloworld.scala** in commmand prompt to compile the file.
+ Then '**scalac**' command is typed in fromt of the file **Hi.scala** in commmand prompt to compile the file.
  Since this is only bytecode whic will run in Java Virtual Machine (JVM) using '**scala**' command.
  >>>   ```
- >>>   \> scalac HelloWorld.scala
- >>>   \> scala HelloWorld
+ >>>   \> scalac HiWorld.scala
+ >>>   \> scala HiWorld
  
  >>>   The above command is used to compile and execute the Scala program. And output 
  >>>   ```
- >>>   Hello, World!
+ >>>   Hi, World!
  
  >>> **Syntax and conding conventions**
- >>>> - **Case Sensitivity** − Scala is case-sensitive, which means identifier hello and Hello have completely different meanings in Scala.
+  >>>> - **Method Names** − All method names must begin with a Lower Case letter. If multiple words are used to form the name of the method, then each inner word's first letter should be in Upper Case. For example ' def myMethodName() '
+  >>>> - **Identifiers** - In Scala names are required for all components, and the names used for objects, methods, classes and  variables are called identifiers. Since Scala is case sensitive keywoords cannot be used and an identifier.
  >>>> - **Class Names** − For all class names, the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case.
  >>>> - **Program File Name** − Name of the program file should exactly match the object name. When saving the file you should save it using the object name (Remember Scala is case-sensitive) and append ‘.scala’ to the end of the name. (If the file name and the object name do not match your program will never compile). In essence if the object name is 'HelloWord' the file must be saved as 'HelloWorld.scala'
  >>>> - **def main(args: Array[String])** − Scala program processing starts from the main() method which is a mandatory part of every Scala Program.
- >>>> - **Method Names** − All method names must begin with a Lower Case letter. If multiple words are used to form the name of the method, then each inner word's first letter should be in Upper Case. For example ' def myMethodName() '
- >>>> - **Identifiers** - In Scala names are required for all components, and the names used for objects, methods, classes and  variables are called identifiers. Since Scala is case sensitive keywoords cannot be used and an identifier.
+ >>>>- **Case Sensitivity** − Scala is case-sensitive, which means identifier hello and Hello have completely different meanings in Scala
  >>>>> - **Operator Identifiers** - These kind of Identifiers consists of the printable ASCII characters such as +,-,?,: or #.And they could consist of one or more operator characters.
  >>>>>   ```
  >>>>>   + ++ ::: <?> :>
